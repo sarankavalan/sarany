@@ -73,8 +73,8 @@ import pyperclip
 client = MongoClient("mongodb+srv://sarankavalan:Saran4moziya@cluster0-oesgl.mongodb.net/twitter?retryWrites=true&w=majority")
 db = client.get_database('Twitter')
 
-driver = webdriver.Chrome(executable_path=r'C:\Users\saran-wlf\Desktop\immy\chromedriver.exe')
-driver1 = webdriver.Chrome(chrome_options = option, executable_path=r'C:\Users\saran-wlf\Desktop\immy\chromedriver.exe')
+driver = webdriver.Chrome()
+driver1 = webdriver.Chrome()
 
 def test_search_in_python_org():
     print("enter") 
